@@ -87,8 +87,13 @@ button:hover {
     padding-left: 10px;
 }
 .popover ul li{
+    list-style-type: none;
     padding: 4px;
     padding-left: 10px;
+    position: relative;
+}
+.popover ul li input[type="checkbox"] {
+    margin-left: 10px;
 }
 
 .popover ul h2{
