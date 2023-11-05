@@ -102,6 +102,12 @@ button:hover {
     margin-left: 0px;
 }
 
+.statecheckbox {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
 .amenities:hover .popover,
 .locations:hover .popover {
     visibility: visible;
