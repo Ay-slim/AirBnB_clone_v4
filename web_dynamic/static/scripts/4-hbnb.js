@@ -60,7 +60,6 @@ $(document).ready(function () {
 
   $('#filter_button').click(
     function () {
-      console.log('IN CLICKK');
       $.ajax({
         url: 'http://0.0.0.0:5001/api/v1/places_search',
         type: 'POST',
